@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BR OR NAH</title>
+</head>
+<body>
+    <input type="text" id="nt">
+    <input type="button" value="Verificar" onclick="n()">
+    <div id="res"></div>
+    <script>
+        function n(){
+            var nac = document.getElementById('nt').value;
+            if (nac =='Brasil') {
+                document.getElementById('res').innerHTML = 'Brasileiro';
+                
+            } else{
+                document.getElementById('res').innerHTML = 'Gringo';
+            }
+        }
+    </script>
+</body>
+</html>
