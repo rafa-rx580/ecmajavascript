@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: bisque;
+}
+
+body{
+    background-color: bisque;
+}
+
+main{
+width: 100vw;
+height: 48.77vw;
+display: flex;
+flex-flow: row nowrap;
+background-color: bisque;
+justify-content: center;
+align-items: center;
+}
+
+section{
+    background-color: white;
+    width: 50%;
+    height: 80%;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.514);
+
+}
+
+footer{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: bisque;
+}
