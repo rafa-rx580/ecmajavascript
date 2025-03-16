@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Analisador de números</title>
+</head>
+<body>
+    <header>
+        <h1>Analisador de números</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <p>Digite um número (1 a 100): <input type="number" id="txtnum"></p>
+                <p><input type="button" value="Enviar" onclick="vet()" id="btn"></p>
+                <p><select name="fsel" id="fsel" size="6"></select></p>
+                <p><input type="button" value="Analisar" onclick="analise()"></p>
+            </div>
+            <div id="res">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><strong>Made by Rafael</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
